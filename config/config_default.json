@@ -1,0 +1,43 @@
+{
+  "weight": "weights/mobilenetv2_224_acc=85.6154.onnx",
+  "class_num": 9,
+  "labels": [
+    "正常",
+    "侧视",
+    "喝水",
+    "吸烟",
+    "操作中控",
+    "玩手机",
+    "侧身拿东西",
+    "整理仪容",
+    "接电话"
+  ],
+  "notices": [
+    "正常",
+    "侧视",
+    "喝水",
+    "吸烟",
+    "操作中控",
+    "玩手机",
+    "侧身拿东西",
+    "整理仪容",
+    "接电话"
+  ],
+  "video_path": 0,
+  "rtmpUrl": "rtmp://202.115.17.6:40000/http_flv/test",
+  "reconnect_time": 1800,
+  "server_ip": "202.115.17.6",
+  "cmd_port": 55530,
+  "file_port": 55531,
+  "buffer_size": 1024,
+  "username": "user1",
+  "password": "password1",
+  "transpose": false,
+  "push_rtmp": false,
+  "push_detect":false,
+  "record": false,
+  "use_vpu": false,
+  "xml_path": "weights/mobilenetv2_1_12_23_acc=91.6275.xml",
+  "bin_path": "weights/mobilenetv2_1_12_23_acc=91.6275.bin",
+  "gps": false
+}
